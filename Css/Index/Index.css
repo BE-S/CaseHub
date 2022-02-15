@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Header*/
+header {
+    display: flex;
+    color: aliceblue;
+}
+
+.header-icons {
+    width: 10em;
+    background: red;
+}
+
+.header-navigation-block {
+    display: flex;
+    width: 100%;
+    height: 3em;
+    background: black;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 14px 0;
+}
+
+li {
+    display: inline;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.header-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 10em;
+    border: 2px solid #22242f;
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+}
+
+.Enter-steam {
+    height: 46px;
+}
+
+.Account {
+    color: white;
+}
+
+.Icon-avatar {
+    width: 42px;
+    margin-right: 1em;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+}
+
+.main-fixed-block {
+    background: blue;
+    width: 10em;
+}
+
+.main-block-content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main-block-group {
+    max-width: 100em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.case {
+    width: 17em;
+    height: 17em;
+    margin: 10px 10px;
+}
+
+.main-name-case.top {
+    margin-top: 2em;
+}
+
+.main-name-case {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-block-cases {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+.one {
+   background: rebeccapurple;  
+}
+
+.two {
+   background: blue; 
+}
+
+footer {
+    width: 100%;
+    height: 13em;
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
