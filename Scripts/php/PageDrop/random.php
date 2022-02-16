@@ -3,6 +3,8 @@
 echo random();
 
 function random() {
+    require '../../../DataBase/WriteDB.php';
+    
     $id_drop;
 	for(;;) {   
         if ($random = rand(0,100) <= 55) { //ширп
@@ -19,6 +21,8 @@ function random() {
             break;
         }
     }
-    return $id_drop;
+    Write_drop("inventory_players", $id_drop);
+    
+    echo $id_drop;
 }
 ?>

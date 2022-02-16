@@ -10,7 +10,6 @@
                    //var mas = jQuery.parseJSON(arr);
                    console.log(arr);
                });*/
-               CallWrite(id);
            }
        });
     });
@@ -64,7 +63,7 @@ function CallDataDb(id) {
 });
 }*/
 
-function CallWrite(id) {
+/*function CallWrite(id) {
   $.ajax({
     url: "../../DataBase/WriteDB.php",
     type: 'POST',
@@ -73,7 +72,7 @@ function CallWrite(id) {
         alert(arr);
    },
 });
-}
+}*/
 
 /*function CallDataDb(id) {
     return new Promise(resolve => {
@@ -86,7 +85,7 @@ function CallWrite(id) {
     });
 }*/
 
-function aa() {
+/*function aa() {
     return new Promise(resolve => {
        $.ajax({
         url: "../../DataBase/Info.php",
@@ -111,4 +110,4 @@ function bb() {
 async function GetDataDb() {
     const a = await aa();
   return a;
-}
+}*/

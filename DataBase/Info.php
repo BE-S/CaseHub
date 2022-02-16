@@ -8,8 +8,8 @@ function info_steam() {
 }
 
 function info_steam_ajax() {
-    require "../Scripts/php/steamauth/steamauth.php";
-    require "../Scripts/php/steamauth/userInfo.php";
+    require "../../../Scripts/php/steamauth/steamauth.php";
+    require "../../../Scripts/php/steamauth/userInfo.php";
     
     if (isset($_SESSION['steamid'])) {
         $steamid = $_SESSION['steam_steamid'];

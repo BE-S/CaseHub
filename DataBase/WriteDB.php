@@ -4,7 +4,7 @@ if (isset($_POST['id'])) {
     echo Write_drop("inventory_players", $_POST['id']);
 } 
 
-function Registration($db_table) { 
+function Registration($db_table) {
         try {
             if (!CheckAcc($db_table)) 
                 Write_account($db_table);
