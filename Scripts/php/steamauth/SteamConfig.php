@@ -2,7 +2,7 @@
 //Version 3.2
 $steamauth['apikey'] = "82424A77920DAC9B39757987A83370A6"; // Your Steam WebAPI-Key found at https://steamcommunity.com/dev/apikey
 $steamauth['domainname'] = "CaseHub"; // The main URL of your website displayed in the login page
-$steamauth['logoutpage'] = "http://casehub/Files/Web/Index/index.php"; // Page to redirect to after a successfull logout (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
+$steamauth['logoutpage'] = "http://casehub/Web/Index/"; // Page to redirect to after a successfull logout (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 $steamauth['loginpage'] = ""; // Page to redirect to after a successfull login (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 
 // System stuff

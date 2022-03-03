@@ -20,7 +20,7 @@ function info_steam_ajax() {
 }
 
 function info_db() {
-    $db_host = "localhost";
+    $db_host = "localhost:3307";
     $db_name = "casehub";
     $db_login = "root";
     $db_password = "root";

@@ -22,6 +22,7 @@
                         require '../../DataBase/WriteDB.php';
                         $db_table = "players";
                         Registration($db_table);
+                        exit();
                     }  
                  ?>
             </div>
@@ -36,29 +37,29 @@
         <div class = 'main-block-group'>
                 <div class = 'main-name-case top'>Классные кейсики</div>
                 <div class = 'main-block-cases'>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case one' href = '../CaseDrop/Index.php'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case one' href = 'http://casehub/Web/CaseDrop/'></a>
                 </div>
                 <div class = 'main-name-case'>Прикольненькие кейсики</div>
                 <div class = 'main-block-cases'>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
-                    <a class = 'case two' href = '../CaseDrop/Index.php'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
+                    <a class = 'case two' href = 'http://casehub/Web/CaseDrop/'></a>
             </div>
         </div>
     </div>
