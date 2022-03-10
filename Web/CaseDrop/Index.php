@@ -23,8 +23,7 @@
                     require '../../Scripts/php/Account/Account.php';
                     if(Authorization()) {
                         require '../../DataBase/WriteDB.php';
-                        $db_table = "players";
-                        Registration($db_table);
+                        Registration();
                     }  
                  ?>
             </div>
@@ -46,6 +45,7 @@
             <?php
                 Start();
             ?>
+            <a class = "a">что-то</a>
         </div>
     </div>
         
@@ -85,6 +85,6 @@
     
 <footer></footer>
     <script src = '../../Scripts/js/Page_Drop/roulette.js'></script>
-    <script src = '../../Scripts/js/Page_Drop/choise.js'></script>
+    //<script src = '../../Scripts/js/Page_Drop/choise.js'></script>
 </body>
 </html>

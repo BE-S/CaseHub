@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.LOGO {
+    font-size: 36px;
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+div {
+    padding: 7vh;
+    background-color: azure;
+}
+
+input {
+    margin: 1vh 0;
+}
+
+a {
+    border: 0;
+    color: black;
+    background-color: #eaeaea;
+    padding: 5px;
+}

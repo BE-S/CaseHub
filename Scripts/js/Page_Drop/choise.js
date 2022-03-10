@@ -24,6 +24,5 @@ function Choise() {
 			let div = document.querySelector('.main-button.open-case');
 			div.innerHTML = "Прокрутить";
 		}
-	}
-	 
+	} 
 }

@@ -1,10 +1,10 @@
 (function () {       
-    
     $(".main-button").bind("click", function() { 
        $.ajax ({
            url: "../../Scripts/php/PageDrop/random.php",
            type: "POST",
            success: function(id) {
+               console.log(id);
                PrintDrop(id);
                /*GetDataDb().then(arr => {
                    //var mas = jQuery.parseJSON(arr);
@@ -39,75 +39,3 @@ function PrintDrop(id) {
 	case_drop_icons.append(div);
 	Choise();
 }
-
-/*function CallWrite(id, arr) {
-  $.ajax({
-    url: "../../DataBase/WriteDB.php",
-    type: 'POST',
-    data: {id: id, arr: arr},
-    success: function(html){
-        alert(html);
-   },
-});
-}
-
-function CallDataDb(id) {
-      $.ajax({
-        url: "../../Data/Players.php",
-        type: 'POST',
-        data: {check: true},
-    success: function(data) {
-        var arr = jQuery.parseJSON( data );
-        CallWrite(id, arr);
-    },
-});
-}*/
-
-/*function CallWrite(id) {
-  $.ajax({
-    url: "../../DataBase/WriteDB.php",
-    type: 'POST',
-    data: {id: id},
-    success: function(arr){
-        alert(arr);
-   },
-});
-}*/
-
-/*function CallDataDb(id) {
-    return new Promise(resolve => {
-      $.ajax({
-        url: "../../Data/Players.php",
-        type: 'POST',
-        data: {check: true},
-        success: resolve
-      });
-    });
-}*/
-
-/*function aa() {
-    return new Promise(resolve => {
-       $.ajax({
-        url: "../../DataBase/Info.php",
-        type: 'POST',
-        data: {check_info: true},
-        success: resolve
-      }); 
-    });
-}
-
-function bb() {
-    return new Promise(resolve => {
-      $.ajax({
-        url: "../../DataBase/Info.php",
-        type: 'POST',
-        data: {check_info_db: true},
-        success: resolve
-      });
-});
-}
-
-async function GetDataDb() {
-    const a = await aa();
-  return a;
-}*/

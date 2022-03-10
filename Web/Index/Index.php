@@ -20,19 +20,21 @@
                 require '../../Scripts/php/Account/Account.php';
                     if(Authorization()) {
                         require '../../DataBase/WriteDB.php';
-                        $db_table = "players";
-                        Registration($db_table);
-                        exit();
+                        Registration();
                     }  
                  ?>
             </div>
     </nav>
+
 </header>
     
 <main>
-    <div class = 'main-fixed-block'>
-    
-    </div>
+    <?php
+        if ($_SESSION["authorized"] == true) {
+            echo "<div class = 'left-admin-fixed-block'></div>";
+        }
+    ?>
+    <div class = 'main-fixed-block'></div>
     <div class = 'main-block-content'>
         <div class = 'main-block-group'>
                 <div class = 'main-name-case top'>Классные кейсики</div>

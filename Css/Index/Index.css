@@ -67,6 +67,13 @@ li {
     margin-right: 1em;
 }
 
+/*ADMIN*/
+
+.left-admin-fixed-block {
+    width: 10em;
+    background: black;
+}
+
 /*MAIN*/
 main {
     display: flex;

@@ -1,4 +1,4 @@
 <?php
-header('Location: Web/Index/Index.php'); 
+header('Location: Web/index/Index.php'); 
 exit();
 ?>
