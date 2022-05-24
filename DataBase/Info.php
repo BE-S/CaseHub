@@ -1,16 +1,18 @@
 <?php
-function info_steam() {
-    require "../../Scripts/php/steamauth/userInfo.php";
+/*function info_steam() {
+    require_once "../../Scripts/steamauth/userInfo.php";
+    
     $steamid = $steamprofile['steamid'];
     $name = $steamprofile['personaname'];
-    
+
+
     return [$steamid, $name];
-}
+}*/
 
 function info_steam_ajax() {
-    require "../../../Scripts/php/steamauth/steamauth.php";
-    require "../../../Scripts/php/steamauth/userInfo.php";
-    
+    require_once "../../Scripts/steamauth/steamauth.php";
+    require_once "../../Scripts/steamauth/userInfo.php";
+
     if (isset($_SESSION['steamid'])) {
         $steamid = $_SESSION['steam_steamid'];
         $name = $_SESSION['steam_personaname'];
@@ -49,8 +51,12 @@ function info_table_admin() {
     $db_name = "casehub_cms";
     
     $db_table_admin = "admins";
+    $db_table_admin_logo = "admin_panel_logo";
+    $db_table_admin_body = "admin_panel_body";
+    $db_table_admin_plugin = "admin_panel_plugin";
+    $db_table_admin_case = "case";
     $db_table_page_case = "page_case";
     
-    return [$db_name, $db_table_admin, $db_table_page_drop]; 
+    return [$db_name, $db_table_admin, $db_table_admin_logo, $db_table_admin_body, $db_table_admin_plugin, $db_table_page_drop]; 
 }
 ?>

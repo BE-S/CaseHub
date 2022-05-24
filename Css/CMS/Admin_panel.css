@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-panel {
+    width: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-window-case {
+    display: flex;
+}
+
+.main-window-add { 
+    position: fixed;
+    width: 58%;
+    height: 39%;
+    background-color: indianred;
+}
+
+.plugin {
+    display: none;
+}

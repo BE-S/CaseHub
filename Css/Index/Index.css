@@ -10,14 +10,14 @@ a {
     cursor: pointer;
 }
 
-/*Header*/
+/*HEADER*/
 header {
     display: flex;
     color: aliceblue;
 }
 
 .header-icons {
-    width: 10em;
+    width: calc(10em + 2px);
     background: red;
 }
 
@@ -132,6 +132,8 @@ main {
 .two {
    background: blue; 
 }
+
+/*FOOTER*/
 
 footer {
     width: 100%;

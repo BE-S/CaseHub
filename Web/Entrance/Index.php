@@ -1,3 +1,8 @@
+<?
+    require_once "../../DataBase/Connect.php";
+    require_once "../../DataBase/Info.php";
+?>
+
 <!Doctype html>
 <html>
 <head>
@@ -6,7 +11,7 @@
     </script>
 </head>
 <body>
-    <form action="../../Scripts/php/CMS/Check_admin.php" method="POST">
+    <form action="../../Scripts/CMS/Check_admin.php" method="POST">
         <span class = "LOGO">CaseHub</span>
         <div>
             <span>Логин</span>

@@ -201,6 +201,14 @@ main {
    background: blue; 
 }
 
+/*ADMIN*/
+
+.admin-panel {
+    width: 7em;
+}
+
+/*FOOTER*/
+
 footer {
     width: 100%;
     height: 13em;
