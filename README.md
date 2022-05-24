@@ -25,15 +25,6 @@ Tasks list:<br>
 
 Now i write function which will have the opportunity add new case in database, as well as add skins in case. This access will be givento the user authorized in Admin panel.
 
-Вот краткое описание:<br>
-Когда пользователь нажимает добавить новый кейс <br>
-*КАРТИНКА
-Он вызывает окно в котором он загружает картинку для кейса
-*КАРТИНКА
-после этого ему предлогается довить скины из списка доступных или найти с помощью поля поиска
-*КАРТИНКА
-Чтобы завершить выбор и отправить кейс в базу данных пользователь нажимает на кнопку ready
-
 ___
 Here is a short description:<br>
 When user click button add new case<br>
